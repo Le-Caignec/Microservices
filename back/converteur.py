@@ -1,5 +1,5 @@
 import flask
-from flask import Flask
+from flask import request, Flask
 import markdown
 from flask_cors import CORS
 
@@ -8,18 +8,17 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/convert', methods=["GET"])
+@app.route('/convert', methods=["POST"])
 def handlePost():
-    print("j'ai bien recu un post")
-    converted = "hello world"
-    response = flask.jsonify(some = converted)
-    print(response)
-    return response
+    recive=request.get_json()
+    print(recive.get("a"))
+    converted = convertion(recive.get("a"))
+    data = {}
+    data["convert"] = converted
+    return flask.jsonify(data)
 
-def convertion():
-    with open('exemple.md', 'r') as f:
-        text = f.read()
-        html = markdown.markdown(text)
+def convertion(input_text):
+    html = markdown.markdown(input_text)
     return html
 
 if __name__ == '__main__':
