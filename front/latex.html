@@ -27,25 +27,25 @@
         <div class="row">
             <div class="col">
                 <div class="mb-3 text-center">
-                    <label for="inputTextMarkdown" class="form-label ">Markdown Input</label>
-                    <textarea class="form-control" id="inputTextMarkdown" rows="27"></textarea>
+                    <label for="inputText" class="form-label ">Formule Input</label>
+                    <textarea class="form-control" id="inputText" rows="27"></textarea>
                 </div>
             </div>
             <div class="col">
                 <div class="mb-3 text-center" >
-                    <label for="outputHTML" class="form-label ">HTML Output</label>
-                    <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-light" id="outputHTML" style="max-height:660px; min-height:660px;" ></div>
+                    <label for="outputLatex" class="form-label ">Latex Output</label>
+                    <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-light" id="outputLatex" style="max-height:660px; min-height:660px;" ></div>
                 </div>
             </div>
         </div>
         <div class="text-center">
-            <button onclick="spendPostMarkdown()" class="btn btn-dark" >Convert to Markdown</button>
+            <button onclick="spendPostLatex()" class="btn btn-dark" >Convert to Latex</button>
         </div>
     </div>
     <script>
-        function spendPostMarkdown() {
+        function spendPostLatex() {
             var html_response;
-            b = document.getElementById("inputTextMarkdown").value;
+            b = document.getElementById("inputText").value;
             fetch('http://localhost:8060/convert', {
                 headers: {
                     'Accept': 'application/json',
@@ -60,7 +60,7 @@
         }
 
         function answer(data) {
-            document.getElementById('outputHTML').innerHTML = data["convert"]
+            document.getElementById('outputLatex').innerHTML = data["convert"]
         }
     </script>
 </body>
