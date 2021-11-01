@@ -1,10 +1,10 @@
-package com.latex.microservices;
+package com.miroservices.BDD;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroservicesApplicationTests {
+class BddApplicationTests {
 
 	@Test
 	void contextLoads() {
