@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/latex', methods=["POST"])
+@app.route('/convertTOlatex', methods=["POST"])
 def handlePost():
     recive=request.get_json()
     print(recive.get("a"))
@@ -23,5 +23,4 @@ def convertion(input_text):
     return html
 
 if __name__ == '__main__':
-    convertion(" x = \frac {-b \pm \sqrt{b^2 - 4ac}}{2a}")
-    app.run(host="localhost", port=8070)
+    app.run(host="0.0.0.0", port=8070)

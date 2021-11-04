@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c48585-0763-4faa-b7a4-9755b88e9160" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BDD/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../front/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/Latex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latex/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/entity/Latex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/entity/Latex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDD/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../BDD/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/latex.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/latex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/serverWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../front/serverWeb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/workspace.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../latex/Latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../latex/Latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../latex/latex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../latex/latex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/converteur.py" beforeDir="false" afterPath="$PROJECT_DIR$/converteur.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="20OBuFmy3pKbkM4PA0yIcsucjY5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="markdown" sdk-home="/usr/local/bin/python3.8">
+        <option name="mySdkHome" value="/usr/local/bin/python3.8" />
+        <option name="myModuleName" value="markdown" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="converteur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="markdown" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/converteur.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="back_markdown" />
+          <option name="containerName" value="MICROSERVICE_MARKDOWN" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8060" />
+                <option name="hostPort" value="8060" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Python.converteur" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c48585-0763-4faa-b7a4-9755b88e9160" name="Changes" comment="" />
+      <created>1635905975981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635905975981</updated>
+      <workItem from="1635972608357" duration="2000" />
+      <workItem from="1635972877424" duration="2258000" />
+      <workItem from="1635975853722" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/markdown$converteur.coverage" NAME="converteur Coverage Results" MODIFIED="1635974139412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

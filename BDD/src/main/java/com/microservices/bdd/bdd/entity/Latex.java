@@ -1,10 +1,7 @@
 package com.microservices.bdd.bdd.entity;
 
 
-import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.annotation.PropertyName;
-
-import java.util.HashMap;
 
 public class Latex {
     private String id;

@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/convert', methods=["POST"])
+@app.route('/convertTOmarkdown', methods=["POST"])
 def handlePost():
     recive=request.get_json()
     print(recive.get("a"))
@@ -22,4 +22,4 @@ def convertion(input_text):
     return html
 
 if __name__ == '__main__':
-    app.run(host="localhost", port=8060)
+    app.run(host="0.0.0.0", port=8060, debug=True)
