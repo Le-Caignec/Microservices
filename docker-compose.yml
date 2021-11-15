@@ -1,0 +1,47 @@
+version: '3.6'
+
+services:
+
+  microservice_bdd:
+    container_name: MICROSERVICE_BDD
+    build:
+      context : ./bdd
+      dockerfile: ./Dockerfile
+    ports:
+      - 8050:8050
+    expose:
+      - 8050
+
+  microservice_markdown :
+    container_name: MICROSERVICE_MARKDOWN
+    build:
+      context : ./markdown
+      dockerfile: ./Dockerfile
+    ports:
+      - 8060:8060
+    expose:
+      - 8060
+
+  microservice_latex :
+    container_name: MICROSERVICE_LATEX
+    build:
+      context : ./latex
+      dockerfile: ./Dockerfile
+    ports:
+      - 8070:8070
+    expose:
+      - 8070
+
+  front :
+    container_name: MICROSERVICE_FRONT
+    depends_on:
+      - microservice_bdd
+      - microservice_markdown
+      - microservice_latex
+    build:
+      context : ./front
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+    expose:
+      - 8080

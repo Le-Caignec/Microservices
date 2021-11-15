@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51c48585-0763-4faa-b7a4-9755b88e9160" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BDD/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/front.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/Latex.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../latex/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/entity/Latex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDD/src/main/java/com/microservices/bdd/bdd/entity/Latex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BDD/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../BDD/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/latex.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/latex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/serverWeb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../front/serverWeb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/workspace.code-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../latex/Latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../latex/Latex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../latex/latex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../latex/latex.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converteur.py" beforeDir="false" afterPath="$PROJECT_DIR$/converteur.py" afterDir="false" />
-    </list>
+    <list default="true" id="51c48585-0763-4faa-b7a4-9755b88e9160" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,6 +95,7 @@
       <workItem from="1635972608357" duration="2000" />
       <workItem from="1635972877424" duration="2258000" />
       <workItem from="1635975853722" duration="70000" />
+      <workItem from="1635993335869" duration="44000" />
     </task>
     <servers />
   </component>
